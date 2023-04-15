@@ -1,0 +1,92 @@
+#nav_items {
+    color: white;
+}
+
+.content{
+    background-image: url(../img/Captura\ de\ pantalla\ 2023-03-30\ 211049.png);
+    height: 43rem;
+}
+
+#content2 {
+    background-image: url(../img/fondo2.png);
+    height: 20rem;
+}
+
+#btn_registrate {
+    background-color: white;
+    color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+}
+
+#reg {
+    background-color: white; color:black
+}
+
+#reg a {
+    color: black;
+    text-decoration: none;
+}
+
+.log {
+    background-color: rgba(0, 0, 0, 0); color:white;
+    transition: background-color 300ms ease-out;
+}
+
+.log:hover {
+    background-color: rgba(51, 51, 51, 1);
+}
+
+.bg1 {
+    margin: -1%; zoom: 100%; padding: 0%; border: 0%; width: 120%;
+}
+
+.link-2{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.link-4 {
+    color: black;
+    text-decoration: none;
+}
+
+.link-5 {
+    padding-left: 10px;
+    color: black;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+.link-6 {
+    padding-left: 10px;
+    padding-right: 5.5rem;
+    color: black;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+.hr-1 {
+    border-width: 1px;
+    border-color: black;
+    margin: 20px 0;
+    color: black;
+    opacity: 100%;
+}
+
+#link-1{
+    color: black;
+    text-decoration: none;
+}

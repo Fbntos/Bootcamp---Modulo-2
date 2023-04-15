@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Francisco Barrientos">
+    <link rel="stylesheet" href="./assets/css/style_ev.css">
+    <link rel="icon" type="image/jpg" href="./assets/img/n.png"/>
+    <title>NIMRODEL Pub Restaurant</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="navbar-logo">
+            <img src="./assets/img/n.png" alt="Logo">
+          </div>
+        <div id="nav_pag">
+            <ul class="navbar-options">
+                <li><p class="items_nav">Nuestros Productos</p></li>
+                <li><p class="items_nav">Sobre Nosotros</p></li>
+                <li><p class="items_nav"><a href="#comuniquemonos">Comuniquemonos</a></p></li>
+                <li><p class="items_nav"><a href="#reserva">Reserva</a></p></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- CONTENIDO  -->
+    <div class="content">
+        <!-- TITULOS -->
+        <div id="titulo-1"><h1>Nimrodel Pub Restaurant</h1></div>
+        <div id="titulo-2"><strong><h2>Destacados de la semana</h2></strong></div>
+
+        <!-- PRODUCTOS -->
+        <div class="productos-container">
+            <div class="images-container">
+                <div class="image-box">
+                  <img src=".//assets/img/bebidas.jpg" alt="Imagen 1"">
+                  <h3>GASEOSAS</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="image-box">
+                  <img src=".//assets/img/tablas.jpg" alt="Imagen 2">
+                  <h3>TABLAS</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="image-box" id="image-box3">
+                  <img src=".//assets/img/shop.jpeg" alt="Imagen 3">
+                  <h3>SHOP CERVEZA</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FORMULARIO 1 -->
+        <div class="form-container">
+            <h3>Comuniquemonos</h3>
+            <br>
+            <form >
+                <!-- INPUT NOMBRE -->
+                <label for="name_contact">Nombre </label>
+                <input type="text" id="name_contact" placeholder="Maria Vargas" required><br><br>
+                <!-- INPUT EMAIL -->
+                <label for="email_contact">Correo</label>
+                <input type="email" id="email_contact" placeholder="mariavargas@email.com" required><br><br>
+                <!-- INPUT TELEFONO -->
+                <label for="tel_contact">Teléfono</label>
+                <input type="number" id="tel_contact" placeholder="123456789" required><br><br>
+                <!-- INPUT MOTIVO -->
+                <label for="motivo_contact">Motivo</label>
+                <select id="motivo" required>
+                    <option value="1">--</option>
+                    <option value="2">Felicitaciones</option>
+                    <option value="3">Reclamos</option>
+                    <option value="4">Consultas</option>
+                    <option value="5">Sugerencias</option>
+                </select><br><br>
+                <textarea name="msj_contact" id="msj_contact" cols="30" rows="10"></textarea><br><br>
+                <!-- BOTON ENVIAR -->
+                <button class="btn-form">ENVIAR</button>
+            </form>
+        </div>
+
+        <!-- FORMULARIO 1 -->
+        <div class="form-container">
+            <h3>Reserva</h3>
+            <br>
+            <form >
+                <!-- INPUT NOMBRE -->
+                <label for="name_contact">Nombre </label>
+                <input type="text" id="name_contact" placeholder="xxxx xxxxx" required><br><br>
+                <!-- INPUT EMAIL -->
+                <label for="email_contact">Correo</label>
+                <input type="email" id="email_contact" placeholder="xxx@xxxx.xxx" required><br><br>
+                <!-- INPUT TELEFONO -->
+                <label for="tel_contact">Teléfono</label>
+                <input type="number" id="tel_contact" placeholder="xxxxxxx" required><br><br>
+                <!-- INPUT FECHA -->
+                <label for="fecha_reserva">Fecha</label>
+                <input type="date" id="fecha_reserva" required><br><br>
+                <!-- INPUT HORA -->
+                <label for="hora_reserva">Hora</label>
+                <input type="time" id="hora_reserva" required><br><br>
+                <!-- INPUT ASISTENTES -->
+                <label for="n_asistentes">N Asistentes</label>
+                <input type="number" id="n_asistentes" required><br><br>
+                <!-- BOTON ENVIAR -->
+                <p><button class="btn-form">RESERVAR</button></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-image" style="background-image: url(./assets/img/fondo.jpg)">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>Todos los derechos reservados ®</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>

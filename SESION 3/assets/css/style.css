@@ -1,0 +1,41 @@
+
+/* ESTILO A TRAVES DE UNA ETIQUETA*/
+h3 {
+    color: aqua;
+    background-color: black;
+}
+
+/* ESTILO A TRAVES DE ID */
+#title_h4 {
+    color: coral;
+    background-color: antiquewhite;
+}
+
+/* ESTILO A TRAVES DE UNA CLASE */
+.title_h4{
+    color: yellowgreen;
+    background-color: black;
+}
+
+/* EJERCICIO CSS */
+/* 1 rem equivale a 16px */
+div {
+    font-size: 10rem;
+    display: inline;
+}
+
+#div1 {
+    background-color: blue;
+    
+}
+
+#div2 {
+    background-color: cadetblue;
+    padding: 2rem;
+}
+
+#div3 {
+    background-color: aquamarine;
+}
+
+/* EJERCICIO DE COMPROBACIÓN */

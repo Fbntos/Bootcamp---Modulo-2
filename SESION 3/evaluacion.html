@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Francisco Barrientos">
+    <title>NIMRODEL Pub Restaurant</title>
+    <link rel="stylesheet" href="./assets/css/style_ev.css">
+    <link rel="icon" type="image/jpg" href="./assets/img/n.png"/>
+</head>
+
+<body>
+    <nav>
+        <div id="nav_pag">
+            <img id="logo_nav" src="./assets/img/n.png">
+            <div class="items_nav">
+                <p class="items_nav">Nuestros Productos</p>
+                <p class="items_nav">Sobre Nosotros</p>
+                <p class="items_nav"><a href="#comuniquemonos">Comuniquemonos</a></p>>
+                <p class="items_nav"><a href="#reserva">Reserva</a></p>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h1 id="titulo">Nimrodel Pub Restaurant</h1>
+        <h2 id="titulo_2">Destacados de la semana</h2>
+        <section id="section_productos">
+
+            <div id="img_1">
+                <!-- IMG GASEOSAS -->
+                <img src="./assets/img/bebidas.jpg" title="GASEOSAS" width="300" height="200">
+                <p>
+                    <strong>GASEOSAS</strong>
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </p>
+            </div>
+            
+            <div id="img_2">
+                <!-- IMG TABLAS -->
+                <img src="./assets/img/tablas.jpg" title="TABLAS" width="300" height="200">
+                <p>
+                    <strong>TABLAS</strong>
+                </p>
+                <p>
+                    Assumenda velit beatae nihil nesciunt cumque illo.
+                </p>
+            </div>
+    
+            <div id="img_3">
+                <!-- IMG CERVEZA -->
+                <img src="./assets/img/shop.jpeg" title="CERVEZA" width="300" height="200">
+                <p>
+                    <strong>SHOP CERVEZA</strong>
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </section>
+        
+        
+        <section>
+            <!-- FORM CONTACTO -->
+            <article >
+                <hr>
+                <div id="comuniquemonos">
+                    <form >
+                        <h3>Comuniquemonos</h3>
+                        <!-- INPUT NOMBRE -->
+                        <label for="name_contact">Nombre </label>
+                        <input type="text" id="name_contact" placeholder="Maria Vargas" required><br><br>
+                        <!-- INPUT EMAIL -->
+                        <label for="email_contact">Correo</label>
+                        <input type="email" id="email_contact" placeholder="mariavargas@email.com" required><br><br>
+                        <!-- INPUT TELEFONO -->
+                        <label for="tel_contact">Teléfono</label>
+                        <input type="number" id="tel_contact" placeholder="123456789" required><br><br>
+                        <!-- INPUT MOTIVO -->
+                        <label for="motivo_contact">Motivo</label>
+                        <select id="motivo" required>
+                            <option value="1">--</option>
+                            <option value="2">Felicitaciones</option>
+                            <option value="3">Reclamos</option>
+                            <option value="4">Consultas</option>
+                            <option value="5">Sugerencias</option>
+                        </select><br><br>
+                        <textarea name="msj_contact" id="msj_contact" cols="30" rows="10"></textarea><br><br>
+                        <!-- BOTON ENVIAR -->
+                        <button>ENVIAR</button>
+                    </form>
+                </div>
+            </article>
+
+            <!-- FORM RESERVA -->
+            <article id="reserva">
+                <hr>
+                <form action="">
+                    <h3>Reserva</h3>
+                    <!-- INPUT NOMBRE -->
+                    <label for="name_reserva">Nombre </label>
+                    <input type="text" id="name_reserva" required><br><br>
+                    <!-- INPUT EMAIL -->
+                    <label for="email_reserva">Correo</label>
+                    <input type="email" id="email_reserva" required><br><br>
+                    <!-- INPUT TELEFONO -->
+                    <label for="tel_reserva">Teléfono</label>
+                    <input type="number" id="tel_reserva"  required><br><br>
+                    <!-- INPUT FECHA -->
+                    <label for="fecha_reserva">Fecha</label>
+                    <input type="date" id="fecha_reserva" required><br><br>
+                    <!-- INPUT HORA -->
+                    <label for="hora_reserva">Hora</label>
+                    <input type="time" id="hora_reserva" required><br><br>
+                    <!-- INPUT ASISTENTES -->
+                    <label for="n_asistentes">Cantidad de Asistentes</label>
+                    <input type="number" id="n_asistentes" required><br><br>
+                    <!-- BOTON RESERVA -->
+                    <button>RESERVAR</button>
+                </form>
+                <hr>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p style="padding-top: 250px;">Todos los derechos reservados ®</p>
+        </div>
+    </footer>
+</body>
+</html>

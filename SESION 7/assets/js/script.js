@@ -1,0 +1,1 @@
+alert('Hola Mundo a traves de un script')

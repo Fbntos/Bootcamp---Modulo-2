@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Francisco Barrientos">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style_ev.css">
+    <link rel="icon" type="image/jpg" href="./assets/img/ev6/n.png"/>
+    <title>NIMRODEL Pub Restaurant</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary col-xl-12" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./assets/img/ev6/n.png" width="50px"></a>
+          <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-xl-center justify-content-lg-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#"" id="nav_link">Nuestros Productos</a>
+              <a class="nav-link" href="#">Sobre Nosotros</a>
+              <a class="nav-link" href="#">Comuniquemosnos</a>
+              <a class="nav-link">Reserva</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- TITULOS -->
+    <div class="container">
+      <p><H1 class="titulo-1 text-center ">Nimrodel Pub Restaurant</H1></p>
+      <p><H2 class="titulo-2 text-center pt-5">Destacados de la semana</H2></p>
+    </div>
+
+    <!-- PRODUCTOS - CARDs -->
+    <div class="container justify-content-xl-center justify-content-sm-center  text-center pt-3 pb-5 col-md-6 col-xl-12">
+      <div class="row gy-5">
+        <div class="col-xl-4">
+          <div class="card">
+            <img src=".//assets/img/ev6/bebidas.jpg" class="card-img-top" alt="Gaseosas">
+            <div class="card-body">
+              <h5 class="card-title">GASEOSAS</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-12">
+          <div class="card">
+            <img src=".//assets/img/ev6/tablas.jpg" class="card-img-top" alt="Tablas">
+            <div class="card-body">
+              <h5 class="card-title">TABLAS</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-12">
+          <div class="card">
+            <img src=".//assets/img/ev6/shop.jpeg" class="card-img-top" alt="Cervezas">
+            <div class="card-body">
+              <h5 class="card-title">SHOP CERVEZA</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+
+    <!-- FORMULARIO 1 -->
+    <div class="container col-xl-6 col-lg-6 d-none d-lg-block" id="container-form1">
+      <div>
+        <p><H2 class="titulo-3 text-center">Comuniquemosnos</H2></p>
+      </div>
+      <form class="container col-xl-6 col-lg-8">
+        <div class="form-group ">
+          <label for="name" class="form-label">Nombre:</label>
+          <input type="text" class="form-control " id="name" name="name" placeholder="Introduce tu nombre">
+        </div>
+        <div class="form-group ">
+          <label for="email" class="form-label">Correo electrónico:</label>
+          <input type="email" class="form-control " id="email" name="email" placeholder="Introduce tu correo electrónico">
+        </div>
+        <div class="form-group ">
+          <label for="phone" class="form-label">Teléfono:</label>
+          <input type="tel" class="form-control " id="phone" name="phone" placeholder="Introduce tu teléfono">
+        </div>
+        <div class="form-group ">
+          <label for="reason" class="form-label">Motivo de contacto:</label>
+          <input type="text" class="form-control" id="reason" name="reason" placeholder="Indica el motivo de tu contacto">
+        </div>
+        <div class="form-group pt-2">
+          <label for="message" class="form-label">Mensaje:</label>
+          <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+        </div>
+        <div class="pt-4 text-center">
+          <button type="submit" class="btn btn-primary ">Enviar</button>
+        </div>
+      </form>
+    </div>
+
+    <br><br>
+
+    <!-- FORMULARIO 2 -->
+    <div class="container col-xl-6 col-lg-6 d-none d-lg-block" id="container-form1">
+      <div>
+        <p><H2 class="titulo-3 text-center">Reserva</H2></p>
+      </div>
+      <form class="container col-xl-6 col-lg-8">
+        <div class="form-group ">
+          <label for="name" class="form-label">Nombre:</label>
+          <input type="text" class="form-control " id="name" name="name" placeholder="Introduce tu nombre">
+        </div>
+        <div class="form-group ">
+          <label for="email" class="form-label">Correo electrónico:</label>
+          <input type="email" class="form-control " id="email" name="email" placeholder="Introduce tu correo electrónico">
+        </div>
+        <div class="form-group ">
+          <label for="phone" class="form-label">Teléfono:</label>
+          <input type="tel" class="form-control " id="phone" name="phone" placeholder="Introduce tu teléfono">
+        </div>
+        <div class="form-group">
+          <label for="fecha">Fecha:</label>
+          <input type="date" class="form-control" id="fecha">
+        </div>        
+        <div class="form-group">
+          <label for="hora">Hora:</label>
+          <input type="time" class="form-control" id="hora">
+        </div>
+        <div class="form-group">
+          <label for="cantidad">Cantidad de Asistentes:</label>
+          <input type="number" class="form-control" id="cantidad">
+        </div>
+        <div class="pt-4 text-center">
+          <button type="submit" class="btn btn-primary">Reservar</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container-fluid mt-4" id="container-carrusel">
+        <div class="row">
+            <div id="carouselExample" class="carousel slide col-xl-12 col-sm-12">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/ev6/vino.jpg" class="d-block w-100 " ">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/ev6/mojito.jpg" class="d-block w-100" ">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/ev6/chorillana.jpg" class="d-block w-100" ">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+      <p class="text-center">Todos los derechos reservados ®</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>

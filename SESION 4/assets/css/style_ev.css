@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-image: url('../img/fondo.jpg');
+    background-size: auto 250px;
+    background-repeat: repeat-x;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.navbar-options {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.navbar-options li, .nav-options p{
+    margin-left: 30px;
+}
+
+.navbar-options a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.items_nav {
+    color: white;
+}
+
+#titulo-1 {
+    padding-top: 30px;
+    text-align: center;
+    color: gray;
+    font-size: 42px;
+}
+
+#titulo-2{
+    padding-top: 30px;
+    text-align: center;
+    color: black;
+    text-decoration: overline;
+}
+
+.productos-container {
+    padding-top: 100px;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+  
+.image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.image-box img {
+    width: 300px;
+    height: 200px;
+}
+
+.image-box h3 {
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.form-container {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color: #403c3c;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+form {
+    text-align: left;
+    display: inline-block;
+} 
+
+label {
+    color: white;
+}
+
+.form-container h3{
+    color: white;
+}
+  
+.btn-form {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+  
+.bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.bg-image p {
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    margin-bottom: 50px;
+}
+
+.items_nav, .items_nav a{
+    color: #403c3c;
+}
+
+/* SMALL */
+@media (min-width: 501px) and (max-width:768px){
+    .form-container{
+        display: none;
+    }
+
+    nav {
+        background-size: 350px;
+        height: 200px;
+    }
+
+    .navbar-options {
+        list-style: none;
+        display: block;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .images-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images-container p {
+        margin-bottom: 30px;
+    }
+
+    .images-container img {
+        width: 600px;
+    }
+}
+
+
+/* PANTALLA MEDIUM */
+
+@media(min-width:768px) and (max-width:991px){
+    .form-container{
+        display: none;
+    }
+
+    nav {
+        background-size: auto 250px;
+        height: 200px;
+    }
+
+    .navbar-options {
+        list-style: none;
+        display: block;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .images-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images-container p {
+        margin-bottom: 30px;
+    }
+
+    .images-container img {
+        width: 600px;
+    }
+
+}
+
+/* PANTALLA GRANDE */
+@media(min-width:992px) and (max-width:1199px){
+    nav {
+        background-image: url('../img/fondo.jpg');
+        background-size: auto 250px;
+        background-repeat: repeat-x;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .navbar-options {
+        list-style: none;
+        display: block;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .items_nav, .items_nav a{
+        color: #403c3c;
+    }
+
+    .images-container{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    .images-container img:last-child{
+        order: 3;
+        margin-top: auto;
+    }
+
+    .images-container img {
+        width: 500px;
+        height: 200px;
+    }
+
+    #image-box3 {
+        margin-top: 50px;
+    }
+
+    .form-container {
+        max-width: 700px; 
+    }
+
+    .bg-image p {
+        padding-top: 150px;
+    }
+
+}

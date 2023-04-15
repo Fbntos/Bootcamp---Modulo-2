@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Francisco Barrientos">
+    <title>Rebound Exercise M2-S2</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form action="./form.html">
+        <!-- INPUT TEXT -->
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" required pattern="^[a-zA-Z]{1,100}$"><br><br>
+
+        <!-- INPUT TEXT -->
+        <label for="adress">Dirección</label><br>
+        <input type="text" id="adress" required><br><br>
+
+        <!-- INPUT SELECT (LISTA DESPLEGABLE) -->
+        <label for="especialidad">Especialidad</label><br>
+        <select id="especialidad" required>
+            <option value="1">MEDICINA INTERNA</option>
+            <option value="2">MEDICINA GENERAL</option>
+            <option value="3">TRAUMATOLOGÍA</option>
+            <option value="4">NUTRICIONISTA</option>
+        </select><br><br>
+
+        <!-- INPUT FECHA -->
+        <label for="date">Fecha</label><br>
+        <input type="date" id="date" required><br><br>
+
+        <!-- INPUT HORA -->
+        <label for="time">Hora</label><br>
+        <input type="time" id="time" required><br><br>
+
+        <!-- INPUT CORREO ELECTRONICO -->
+        <label for="email">Correo Electrónico</label><br>
+        <input type="email" id="emial" required><br><br>
+    
+        <!-- BOTON DE CONFIRMACIÓN -->
+        <button>CONFIRMAR</button>
+    </form>
+
+
+</body>
+</html>

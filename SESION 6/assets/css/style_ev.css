@@ -1,0 +1,74 @@
+#navbar {
+    background-image: url(../img/ev6/fondo.jpg);
+    background-size: auto 250px;
+    background-repeat: repeat-x;
+}
+
+.navbar-toggler:hover {
+  color: palevioletred;
+}
+
+.nav-link, #nav-link{
+    color: gray;
+}
+
+.navbar-collapse .navbar-nav .nav-link.active {
+  color: white;
+}
+
+/* TITULOS */
+.titulo-1{
+  color: gray;
+}
+
+.titulo-2{
+  text-decoration: overline;
+}
+
+/* PRODUCTOS */
+.card img{
+  height: 300px;
+}
+
+/* FORMULARIOs */
+.titulo-3{
+  color: white;
+}
+
+#container-form1{
+  background-color: #403c3c;
+  color: white;
+}
+
+/* CARRUSEL */
+#container-carrusel {
+  margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#container-carrusel img{
+  height: 900px;
+}
+
+/* FOOTER */
+.footer{
+  background-image: url(../img/ev6/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 300px;
+}
+
+.footer p{
+  color: white;
+  padding-top: 150px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    background-image: none;
+    background-color: black;
+  }
+}
+
+

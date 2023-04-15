@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Francisco Barrientos">
+    <title>NIMRODEL Pub Restaurant</title>
+    <link rel="icon" type="image/jpg" href="./assets/img/n.png"/>
+</head>
+
+<body>
+    <nav>
+        <img src="./assets/img/n.png">
+        <ul>
+            <li>Nuestros Productos</li>
+            <li>Sobre Nosotros</li>
+            <li><a href="#comuniquemonos">Comuniquemonos</a></li>
+            <li><a href="#reserva">Reserva</a></li>
+        </ul>
+        <h1>Nimrodel Pub Restaurant</h1>
+    </nav>
+    
+    <main>
+        <section>
+            <h2>Destacados de la semana</h2>
+            <!-- IMG GASEOSAS -->
+            <img src="./assets/img/bebidas.jpg" title="GASEOSAS" width="400">
+            <p>
+                <strong>GASEOSAS</strong>
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>
+    
+            <!-- IMG TABLAS -->
+            <img src="./assets/img/tablas.jpg" title="TABLAS" width="400">
+            <p>
+                <strong>TABLAS</strong>
+            </p>
+            <p>
+                Assumenda velit beatae nihil nesciunt cumque illo, facere eum! Unde, distinctio dicta.
+            </p>
+    
+            <!-- IMG CERVEZA -->
+            <img src="./assets/img/shop.jpeg" title="CERVEZA" width="400"></img>
+            <p>
+                <strong>SHOP CERVEZA</strong>
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, aperiam similique. 
+            </p>
+        </section>
+        
+        
+        <section>
+            <!-- FORM CONTACTO -->
+            <article id="comuniquemonos">
+                <hr>
+                <form action="">
+                    <h3>Comuniquemonos</h3>
+                    <!-- INPUT NOMBRE -->
+                    <label for="name_contact">Nombre </label>
+                    <input type="text" id="name_contact" placeholder="Maria Vargas" required><br><br>
+                    <!-- INPUT EMAIL -->
+                    <label for="email_contact">Correo</label>
+                    <input type="email" id="email_contact" placeholder="mariavargas@email.com" required><br><br>
+                    <!-- INPUT TELEFONO -->
+                    <label for="tel_contact">Teléfono</label>
+                    <input type="number" id="tel_contact" placeholder="123456789" required><br><br>
+                    <!-- INPUT MOTIVO -->
+                    <label for="motivo_contact">Motivo</label>
+                    <select id="motivo" required>
+                        <option value="1">--</option>
+                        <option value="2">Felicitaciones</option>
+                        <option value="3">Reclamos</option>
+                        <option value="4">Consultas</option>
+                        <option value="5">Sugerencias</option>
+                    </select><br><br>
+                    <textarea name="msj_contact" id="msj_contact" cols="30" rows="10"></textarea><br><br>
+                    <!-- BOTON ENVIAR -->
+                    <button>ENVIAR</button>
+                </form>
+            </article>
+
+            <!-- FORM RESERVA -->
+            <article id="reserva">
+                <hr>
+                <form action="">
+                    <h3>Reserva</h3>
+                    <!-- INPUT NOMBRE -->
+                    <label for="name_reserva">Nombre </label>
+                    <input type="text" id="name_reserva" required><br><br>
+                    <!-- INPUT EMAIL -->
+                    <label for="email_reserva">Correo</label>
+                    <input type="email" id="email_reserva" required><br><br>
+                    <!-- INPUT TELEFONO -->
+                    <label for="tel_reserva">Teléfono</label>
+                    <input type="number" id="tel_reserva"  required><br><br>
+                    <!-- INPUT FECHA -->
+                    <label for="fecha_reserva">Fecha</label>
+                    <input type="date" id="fecha_reserva" required><br><br>
+                    <!-- INPUT HORA -->
+                    <label for="hora_reserva">Hora</label>
+                    <input type="time" id="hora_reserva" required><br><br>
+                    <!-- INPUT ASISTENTES -->
+                    <label for="n_asistentes">Cantidad de Asistentes</label>
+                    <input type="number" id="n_asistentes" required><br><br>
+                    <!-- BOTON RESERVA -->
+                    <button>RESERVAR</button>
+                </form>
+                <hr>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados ®</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Viajes Chile</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <!-- Quitando el fluid del container se saca el margen por defecto. -->
+    <!--  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Viajes Chile</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- DIV QUE CONTIENE TODO EL CONTENIDO -->
+    <div class="content">
+        <!-- CARRUSEL -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/img/descarga.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/images.jpg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- CONTAINER DE QUIENES SOMOS-->
+        <div class="container p-3">
+            <div class="row">
+                <h1 class="text-center"> ¿QUIENES SOMOS?</h1>
+                <hr>
+                <div class="col-4">
+                    <div><h3>Caja 1</h3></div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur blanditiis explicabo, est rerum fugit, corporis dolores laborum quisquam mollitia perspiciatis id tenetur cumque hic officia doloribus, dolor labore excepturi fugiat?
+                </div>
+                <div class="col-4">
+                    <div><h3>Caja 2</h3></div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ducimus iusto eligendi id reprehenderit culpa accusantium, eius dolore magni laboriosam? Laboriosam iusto animi ipsa neque quia, quidem obcaecati assumenda reprehenderit?
+                </div>
+                <div class="col-4">
+                    <div><h3>Caja 3</h3>/div>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti laudantium fugit in eius voluptate. Non hic numquam repellat aliquid delectus esse rerum repudiandae et sed. Illum quaerat odit ut nihil.
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTAINER DE DESTACADOS -->
+        <div class="container pt-5">
+            <h1 class="text-center pb-3">DESTACADOS</h1>
+            <hr>
+            <div class="row">    
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTAINER DE FORMULARIO -->
+        <div class="container pt-5">
+            <h1 class="text-center pb-3">CONTACTO</h1>
+            <hr>
+            <div class="row">
+                <form>
+                    <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Ingrese el asunto">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">ENVIAR</button>
+                </form>       
+            </div>
+        </div>
+
+        <footer>
+            <div class="container pt-5">
+                <h1 class="text-center">VIAJES CHILE</h1>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
