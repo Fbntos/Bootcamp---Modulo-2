@@ -1,0 +1,56 @@
+/* BODY */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* background-image: url(../img/fondo-digimon.png); */
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: 100px 0 center;
+    background-color: rgb(7, 118, 170);
+}
+
+/* NAVBAR */
+#logo-nav{
+    width: 100px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: rgb(255, 165, 0);
+    font-size: large;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-nav img {
+    margin-right: 1000px;
+}
+
+.navbar-nav li {
+    margin-right: 28px;
+}
+  
+/* LISTA DIGIMON */
+.table{
+    border: 0;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 25px rgb(255, 238, 0);
+}
+
+.table td {
+    font-size: large;
+    color: #000;
+}
+
+.table img{
+    width: 80px;
+}
