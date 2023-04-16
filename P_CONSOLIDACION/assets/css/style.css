@@ -109,3 +109,14 @@ th,td {
 #myBtn:hover {
     background-color: #ff0000;
 }
+
+/* FONDO ABOUT */
+#body-about{
+    background-color: #F15A24;
+    background-image: none;
+    color: white;
+}
+
+#content-about{
+    color: white;
+}
